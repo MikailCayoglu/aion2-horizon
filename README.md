@@ -5,9 +5,9 @@ companion. The application source is maintained separately and is
 not included in this repository.
 
 The current home is [MikailCayoglu/aion2-horizon](https://github.com/MikailCayoglu/aion2-horizon).
-The original personal downloads repository remains available as a signed migration
-bridge. Existing installations preserve settings/history and move to the new feed
-after installing Horizon. Windows may still use the legacy executable filename
+The original personal downloads repository and its migration bridge have been
+retired. Older installations need the current Horizon installer manually; settings
+and history are preserved. Windows may still use the legacy executable filename
 internally for upgrade compatibility; the application and installer display the
 Horizon name. All features are free, with optional voluntary support.
 
@@ -81,6 +81,11 @@ Version 0.8.100 fixes Install & restart staying disabled when nearby players kee
 fighting or healing. Recent combat now shows an advisory; you choose when to restart
 and end the recording. A running update operation shows a clear reason for waiting.
 Installer verification and saving your fights/settings are still required.
+
+Version 0.8.118 fixes rejected cross-server group joins and delayed overlay updates
+after leaving. Rejoining can reuse fresh captured scores for the exact same server
+and character. Local diagnostics include aggregate group decoding evidence without
+player identities or packet contents.
 
 Update manifests are signed with the publisher's ECDSA release key. The app pins
 the public verification key and verifies the installer's exact size and SHA-256
