@@ -87,6 +87,13 @@ after leaving. Rejoining can reuse fresh captured scores for the exact same serv
 and character. Local diagnostics include aggregate group decoding evidence without
 player identities or packet contents.
 
+Version 0.8.119 opens Overview on startup, improves text size and removes repeated
+balance tiles. The in-game menu shows ping independently of the DPS meter.
+Overlays has a draggable layout preview and dedicated widget settings with previews.
+Pet tracking shares radar selections without changing other filters. Equipment
+details use known stat names and one pinned popup; skills use grouped level cards.
+The current character's last known combat power and gear score are retained.
+
 Update manifests are signed with the publisher's ECDSA release key. The app pins
 the public verification key and verifies the installer's exact size and SHA-256
 before starting it. This is separate from Windows Authenticode publisher signing.
